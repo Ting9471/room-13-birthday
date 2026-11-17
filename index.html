@@ -1,0 +1,7 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>房间里的第十三个生日</title><link rel="stylesheet" href="styles.css"></head><body>
+<div id="app"><header><div><small>原创 · 离线点触谜题</small><h1>房间里的第十三个生日</h1></div><div class="tools"><button id="hint">提示 <b>Ⅰ</b></button><button id="sound">声音：开</button><button id="reset">重置</button></div></header>
+<main><section id="stage"><div id="scene" aria-live="polite"></div><div class="texture"></div><div id="hotspots"></div><button id="left" class="nav" aria-label="左转">‹</button><button id="right" class="nav" aria-label="右转">›</button><div id="viewName"></div><div id="message"></div></section><aside><div class="label">当前目标</div><p id="objective"></p><div class="label">物品栏</div><div id="inventory"></div><p class="tip">先选中物品，再点击场景使用；两件物品可相互组合。</p><div class="label">发现</div><ul id="clues"></ul></aside></main></div>
+<div id="intro" class="overlay"><article><div class="roman">XIII</div><small>沈家旧宅 · 十三年后</small><h2>“我叫沈砚。”</h2><p>十三年前，妹妹沈禾在十三岁生日那晚失踪。今天，她寄来<span class="keep-together">一封信</span>，要我回到这间房。</p><button id="start" autofocus>推门进去</button></article></div>
+<div id="modal" class="overlay hidden"><article id="modalCard"></article></div>
+<div id="confirm" class="overlay hidden"><article><h2>让记忆重新沉睡？</h2><p>所有谜题进度会清除；声音偏好会保留。</p><div class="row"><button data-no>取消</button><button data-yes>确认重置</button></div></article></div>
+<div id="ending" class="overlay hidden"></div><script src="game.js"></script></body></html>
